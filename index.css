@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Source Han Sans;
+    src: url(../font/SourceHanSans-VF.ttf);
+    font-weight: lighter;
+    font-style: normal;
+}
+
+#背景 {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-size: cover; 
+    background-position: center center; 
+    z-index: -20221017;
+  }
+#侧边栏 {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+#侧边栏 div,#侧边栏 div a {
+    font-family: Source Han Sans;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+#侧边栏 div a:hover {
+    color: #f1f1f1;
+  }
+#音乐 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 7%;
+    width: 19%;
+    border-radius: 47px;
+    background: #e0e0e0;
+    box-shadow:  21px 21px 47px #a4a4a4,
+                -21px -21px 47px #ffffff;
+}
+#音乐播放器 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
